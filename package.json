@@ -33,7 +33,7 @@
     "classnames": "2.2.6",
     "cross-env": "5.2.0",
     "csurf": "1.9.0",
-    "debug": "3.1.0",
+    "debug": "4.3.0",
     "dragula": "3.7.2",
     "enzyme": "3.3.0",
     "enzyme-adapter-react-16": "1.1.1",
