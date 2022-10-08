@@ -1,0 +1,21 @@
+# Snyk (https://snyk.io) policy file, patches or ignores known vulnerabilities.
+version: v1.25.0
+ignore: {}
+# patches apply the minimum changes required to fix a vulnerability
+patch:
+  'npm:extend:20180424':
+    - json-server > request > extend:
+        patched: '2022-10-08T23:34:14.623Z'
+  SNYK-JS-LODASH-567746:
+    - json-server > lodash:
+        patched: '2022-10-08T23:34:14.623Z'
+    - enzyme > lodash:
+        patched: '2022-10-08T23:34:14.623Z'
+    - enzyme-adapter-react-16 > lodash:
+        patched: '2022-10-08T23:34:14.623Z'
+    - enzyme > cheerio > lodash:
+        patched: '2022-10-08T23:34:14.623Z'
+    - enzyme-adapter-react-16 > enzyme-adapter-utils > lodash:
+        patched: '2022-10-08T23:34:14.623Z'
+    - json-server > lowdb > lodash:
+        patched: '2022-10-08T23:34:14.623Z'
